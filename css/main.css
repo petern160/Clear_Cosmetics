@@ -5,8 +5,15 @@
 * {
     font-family: 'Damion', cursive;
 
+
 }
 
+body {
+    color: #F5EFFF;
+}
+
+
+/* NAV BAR */
 .info {
     background: #F5EFFF;
 }
@@ -26,4 +33,25 @@
 
 .info a:hover {
     color: black;
+}
+
+
+/* HEADER */
+small {
+    color: #A9BCD0
+}
+
+#header {
+    min-height: calc(100vh - 94px);
+    /* overlay color for background */
+    background: linear-gradient(rgba(205, 192, 192, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.height-90 {
+    min-height: calc(100vh - 94px);
 }
