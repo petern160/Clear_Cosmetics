@@ -1,4 +1,29 @@
+/* white  #F5EFFF; */
+/* light orange  #FFA69E */
+
+
 * {
     font-family: 'Damion', cursive;
 
+}
+
+.info {
+    background: #F5EFFF;
+}
+
+.primary-color {
+    color: #FFA69E;
+}
+
+
+.info h2 {
+    word-spacing: 0.6rem;
+}
+
+.info a {
+    transition: color 2s ease-in-out;
+}
+
+.info a:hover {
+    color: black;
 }
