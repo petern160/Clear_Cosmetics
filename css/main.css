@@ -49,9 +49,41 @@ small {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
+    position: relative;
 }
 
 .height-90 {
     min-height: calc(100vh - 94px);
+}
+
+.banner h1 {
+    border-top: 6px dotted #F5EFFF;
+    border-bottom: 6px dotted #F5EFFF;
+
+}
+
+.main-btn {
+    color: #A9BCD0;
+    font-size: 2rem;
+    padding: 0 1rem 0 1rem;
+    border: 3px solid #F5EFFF;
+    transition: all 1s ease-in-out;
+}
+
+.main-btn:hover {
+    border-radius: 10px;
+    background: #c9c1ac;
+}
+
+.header-link {
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transition: all 1s ease;
+    color: #242424;
+}
+
+.header-link:hover {
+    color: #c9c1ac;
 }
