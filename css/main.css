@@ -59,7 +59,26 @@ small {
 .banner h1 {
     border-top: 6px dotted #F5EFFF;
     border-bottom: 6px dotted #F5EFFF;
+    animation: fromLeft;
+    animation-duration: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
 
+@keyframes fromLeft {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0
+    }
+
+    50% {
+        transform: translateX(35px);
+    }
+
+    100% {
+        transofrm: translateX(0);
+        opacity: 1
+    }
 }
 
 .main-btn {
@@ -68,11 +87,36 @@ small {
     padding: 0 1rem 0 1rem;
     border: 3px solid #F5EFFF;
     transition: all 1s ease-in-out;
+
 }
 
 .main-btn:hover {
     border-radius: 10px;
     background: #c9c1ac;
+}
+
+.skincare-btn {
+    animation: fromRight;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromRight {
+    0% {
+        transform: translateX(+100px);
+        opacity: 0
+    }
+
+    50% {
+        transform: translateX(-35px);
+    }
+
+    100% {
+        transofrm: translateX(0);
+        opacity: 1
+    }
 }
 
 .header-link {
@@ -82,8 +126,25 @@ small {
     left: 50%;
     transition: all 1s ease;
     color: #242424;
+    animation: fromBottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .header-link:hover {
     color: #c9c1ac;
+}
+
+@keyframes fromBottom {
+    0% {
+        transform: translateY(-5px)
+    }
+
+    50% {
+        transform: translateY(5px)
+    }
+
+    100% {
+        transform: translateY(-5px)
+    }
 }
