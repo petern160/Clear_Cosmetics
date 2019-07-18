@@ -226,3 +226,11 @@ section {
     background: #d3325f;
     padding: 0 0.4rem;
 }
+
+/* ABOUT */
+#about {
+    display: flex;
+    justify-content: center center;
+    align-self: center;
+    align-items: center;
+}
