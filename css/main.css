@@ -196,3 +196,33 @@ small {
     outline: 10px solid #c9c1ac;
     /* outline-offset: 0.8rem; */
 }
+
+
+/* items */
+#menu {
+    background-color: white;
+    /* align-self: center; */
+    /* background: center; */
+}
+
+section {
+    margin: auto;
+    /* width: 50rem; */
+
+
+}
+
+
+
+.special {
+    border: 3px solid #d3325f;
+    position: relative;
+}
+
+.specail-text {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    background: #d3325f;
+    padding: 0 0.4rem;
+}
