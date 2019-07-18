@@ -227,10 +227,14 @@ section {
     padding: 0 0.4rem;
 }
 
-/* ABOUT */
-#about {
-    display: flex;
-    justify-content: center center;
-    align-self: center;
-    align-items: center;
+
+
+/* reviews */
+.review-img {
+    width: 150px;
+}
+
+.review-text {
+    color: white;
+    font-size: 1.7rem;
 }
